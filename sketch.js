@@ -58,7 +58,7 @@ function draw() {
 	rotateX(angle/3);
 	rotateZ(angle/6);
 	angle+=inc;
-	scale(0.1);
+	scale(0.6);
 	translate(0,0,negZ);
 
 
@@ -92,7 +92,8 @@ function draw() {
 		translate(vector.x,vector.y,vector.z);
 		//ambientMaterial(100,r,random(255));
 		//sphere(r*random(5,5.5));
-		sphere(r*5);
+		//sphere(r);
+		sphere(r*100);
 	});
 	endShape(CLOSE);
 
